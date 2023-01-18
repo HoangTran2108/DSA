@@ -26,7 +26,7 @@ public class MyListTest {
         listIntegerTest.display();
 
         System.out.println("\n");
-        System.out.println(listIntegerTest.listInteger.indexOf("aaaa"));
+        System.out.println(listIntegerTest.listInteger.indexOf(1));
     }
     public void display() {
         for (int i = 0; i < listInteger.getSize(); i++) {

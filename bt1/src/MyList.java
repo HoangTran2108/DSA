@@ -46,9 +46,9 @@ public class MyList<E> {
         return copy;
     }
     public boolean contains(E e) {
-        return this.indexOf((String) e) >= 0;
+        return this.indexOf((int) e) >= 0;
     }
-    public int indexOf(String e) {
+    public int indexOf(int e) {
         int index = -1;
         for (int i = 0; i < size; i++) {
             if (elements[i].equals(e)) {
